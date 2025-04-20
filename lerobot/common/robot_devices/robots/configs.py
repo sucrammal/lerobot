@@ -461,8 +461,6 @@ class So100RobotConfig(ManipulatorRobotConfig):
         default_factory=lambda: {
             "main": FeetechMotorsBusConfig(
 <<<<<<< Updated upstream
-                port="/dev/tty.usbmodem58FA0922821",
-=======
                 port="/dev/tty.usbmodem59700728541",
 >>>>>>> Stashed changes
                 motors={
