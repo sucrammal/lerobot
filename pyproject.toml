@@ -132,6 +132,11 @@ default.extend-ignore-identifiers-re = [
     "ein",
 ]
 
+[tool.uv.workspace]
+members = [
+    "my_model/my_model",
+]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
